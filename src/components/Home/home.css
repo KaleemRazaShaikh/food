@@ -1,0 +1,60 @@
+.banner-wrapper {
+  background-image: url("../../assets/Banner-bg.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px 10px;
+  color: white;
+}
+.banner-wrapper h1 {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px 0;
+  font-size: 58px;
+}
+.app-text {
+  font-size: 24px;
+  text-align: center;
+}
+.img-container {
+  width: 100%;
+}
+.button {
+  padding: 10px 35px;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+.button-1 {
+  background-color: #fa4a0c;
+  border: 1px solid #fa4a0c;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.button-2 {
+  background: none;
+  border: 1px solid white;
+  border-radius: 50px;
+}
+.banner-img {
+  max-width: 450px;
+  width: 100%;
+  display: block;
+  margin: auto;
+  padding: 20px;
+  margin-top: -133px;
+}
+.line {
+  height: 1px;
+  background-color: rgb(203, 195, 195);
+  width: 80%;
+  margin: auto;
+}
+@media screen and (max-width: 767px) {
+  .banner-wrapper h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 42px;
+  }
+}
